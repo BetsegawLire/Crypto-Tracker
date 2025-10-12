@@ -9,16 +9,18 @@
 /* Begin PBXBuildFile section */
 		5284E5752E9C1618005A1EC2 /* Crypto_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5284E5742E9C1618005A1EC2 /* Crypto_AppApp.swift */; };
 		5284E5772E9C1618005A1EC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5284E5762E9C1618005A1EC2 /* ContentView.swift */; };
-		5284E5792E9C161B005A1EC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5284E5782E9C161B005A1EC2 /* Assets.xcassets */; };
 		5284E57C2E9C161B005A1EC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5284E57B2E9C161B005A1EC2 /* Preview Assets.xcassets */; };
+		5284E5832E9C1C76005A1EC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5284E5822E9C1C75005A1EC2 /* Assets.xcassets */; };
+		5284E5862E9C1D29005A1EC2 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5284E5852E9C1D29005A1EC2 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5284E5712E9C1618005A1EC2 /* Crypto App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5284E5742E9C1618005A1EC2 /* Crypto_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto_AppApp.swift; sourceTree = "<group>"; };
 		5284E5762E9C1618005A1EC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		5284E5782E9C161B005A1EC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5284E57B2E9C161B005A1EC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5284E5822E9C1C75005A1EC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Downloads/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		5284E5852E9C1D29005A1EC2 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,8 @@
 			children = (
 				5284E5742E9C1618005A1EC2 /* Crypto_AppApp.swift */,
 				5284E5762E9C1618005A1EC2 /* ContentView.swift */,
-				5284E5782E9C161B005A1EC2 /* Assets.xcassets */,
+				5284E5842E9C1D04005A1EC2 /* Extensions */,
+				5284E5822E9C1C75005A1EC2 /* Assets.xcassets */,
 				5284E57A2E9C161B005A1EC2 /* Preview Content */,
 			);
 			path = "Crypto App";
@@ -65,6 +68,14 @@
 				5284E57B2E9C161B005A1EC2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5284E5842E9C1D04005A1EC2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5284E5852E9C1D29005A1EC2 /* Color.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5284E57C2E9C161B005A1EC2 /* Preview Assets.xcassets in Resources */,
-				5284E5792E9C161B005A1EC2 /* Assets.xcassets in Resources */,
+				5284E5832E9C1C76005A1EC2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +150,7 @@
 			files = (
 				5284E5772E9C1618005A1EC2 /* ContentView.swift in Sources */,
 				5284E5752E9C1618005A1EC2 /* Crypto_AppApp.swift in Sources */,
+				5284E5862E9C1D29005A1EC2 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
