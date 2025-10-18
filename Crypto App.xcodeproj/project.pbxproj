@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52004B752EA3A1D1005BE67E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52004B742EA3A1D1005BE67E /* NetworkManager.swift */; };
 		5204477C2EA138760010CF85 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5204477B2EA138760010CF85 /* Double.swift */; };
 		5204477E2EA2C4A40010CF85 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5204477D2EA2C4A40010CF85 /* HomeViewModel.swift */; };
 		520447812EA2CD550010CF85 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520447802EA2CD550010CF85 /* CoinDataService.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52004B742EA3A1D1005BE67E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		5204477B2EA138760010CF85 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		5204477D2EA2C4A40010CF85 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		520447802EA2CD550010CF85 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
@@ -52,6 +54,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52004B732EA3A192005BE67E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				52004B742EA3A1D1005BE67E /* NetworkManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		5204477F2EA2CD1E0010CF85 /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +91,7 @@
 			children = (
 				5284E5742E9C1618005A1EC2 /* Crypto_AppApp.swift */,
 				5284E5762E9C1618005A1EC2 /* ContentView.swift */,
+				52004B732EA3A192005BE67E /* Utilities */,
 				5204477F2EA2CD1E0010CF85 /* Services */,
 				5284E5872E9C2394005A1EC2 /* Core */,
 				5284E5842E9C1D04005A1EC2 /* Extensions */,
@@ -242,6 +253,7 @@
 				520447812EA2CD550010CF85 /* CoinDataService.swift in Sources */,
 				5284E5A32E9CE8A9005A1EC2 /* CoinRowView.swift in Sources */,
 				5204477E2EA2C4A40010CF85 /* HomeViewModel.swift in Sources */,
+				52004B752EA3A1D1005BE67E /* NetworkManager.swift in Sources */,
 				5284E5772E9C1618005A1EC2 /* ContentView.swift in Sources */,
 				5284E58C2E9C240F005A1EC2 /* HomeView.swift in Sources */,
 				5284E5752E9C1618005A1EC2 /* Crypto_AppApp.swift in Sources */,
