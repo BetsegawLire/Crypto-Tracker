@@ -14,6 +14,7 @@ class HomeViewModel: ObservableObject {
     
     @Published var allCoins: [CoinModel] = []
     @Published var portfolioCoins: [CoinModel] = []
+    @Published var isLoading: Bool = false
     
     @Published var searchText: String = ""
     
@@ -61,6 +62,7 @@ class HomeViewModel: ObservableObject {
             .map(mapGlobalMarketData)
             .sink { [weak self] (returnedStats) in
                 self?.statistics = returnedStats
+                self?.isLoading = false
             }
             .store(in: &cancellables)
         
@@ -69,6 +71,12 @@ class HomeViewModel: ObservableObject {
     
     func updatePortfolio(coin: CoinModel, aamount: Double) {
         portfolioDataService.updatePortfolio(coin: coin, amount: aamount)
+    }
+    
+    func reloadDta() {
+        isLoading = true
+        coinDataService.getCoins()
+        marketDataService.getData()
     }
     
     private func filterCoins(text: String, coins: [CoinModel]) -> [CoinModel] {
